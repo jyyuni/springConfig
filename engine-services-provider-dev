@@ -1,0 +1,125 @@
+#validation threshold
+10002_pldanorm_threshold = 0.0467
+10004_pldanorm_threshold = 0.055
+10006_pldanorm_threshold = 0.045
+10007_pldanorm_threshold = 0.04
+#fixed number
+100070_pldanorm_threshold = 0.08
+#random number
+100071_pldanorm_threshold = 0.07
+#random speak
+100072_pldanorm_threshold = 0.04
+#fixed text
+100073_pldanorm_threshold = 0.08
+100074_pldanorm_threshold = 0.07
+10008_pldanorm_threshold = 0.025
+10009_pldanorm_threshold = 0.03
+10010_pldanorm_threshold = 0.055
+10011_pldanorm_threshold = 0.07
+10013_pldanorm_threshold = 0.07
+10014_pldanorm_threshold = 0.045
+10015_pldanorm_threshold = 0.045
+10016_pldanorm_threshold = 0.025
+10023_pldanorm_threshold = 0.045
+10025_pldanorm_threshold = 0.06
+10018_pldanorm_threshold = 0.04
+100180_pldanorm_threshold = 0.08
+100181_pldanorm_threshold = 0.07
+100182_pldanorm_threshold = 0.04
+100183_pldanorm_threshold = 0.08
+100184_pldanorm_threshold = 0.07
+10030_pldanorm_threshold = 0.06
+#fixed number
+100300_pldanorm_threshold = 0.08
+#random number
+100301_pldanorm_threshold = 0.062
+#random speak
+100302_pldanorm_threshold = 0.04
+#fixed text
+100303_pldanorm_threshold = 0.072
+10032_pldanorm_threshold = 0.03
+#random speech
+10033_pldanorm_threshold = 0.04
+#slogan
+100330_pldanorm_threshold = 0.072
+#random letter
+100331_pldanorm_threshold = 0.062
+#random speech
+100332_pldanorm_threshold = 0.04
+#register threshold
+10002_reg_pldanorm_threshold = 0.0467
+10004_reg_pldanorm_threshold = 0.055
+10006_reg_pldanorm_threshold = 0.045
+10007_reg_pldanorm_threshold = 0.0583
+100070_reg_pldanorm_threshold=0.06
+100071_reg_pldanorm_threshold=0.05
+100072_reg_pldanorm_threshold=0.04
+100073_reg_pldanorm_threshold=0.06
+10008_reg_pldanorm_threshold=0.03
+10009_reg_pldanorm_threshold = 0.03
+10010_reg_pldanorm_threshold=0.05
+10011_reg_pldanorm_threshold=0.05
+10013_reg_pldanorm_threshold = 0.06
+10014_reg_pldanorm_threshold = 0.045
+10015_reg_pldanorm_threshold = 0.045
+10016_reg_pldanorm_threshold=0.03
+10018_reg_pldanorm_threshold = 0.04
+100180_reg_pldanorm_threshold=0.06
+100181_reg_pldanorm_threshold=0.05
+100182_reg_pldanorm_threshold=0.04
+100183_reg_pldanorm_threshold=0.06
+10030_reg_pldanorm_threshold = 0.05
+100300_reg_pldanorm_threshold=0.07
+100301_reg_pldanorm_threshold=0.052
+100302_reg_pldanorm_threshold=0.03
+100303_reg_pldanorm_threshold=0.062
+10023_reg_pldanorm_threshold = 0.035
+10025_reg_pldanorm_threshold = 0.05
+10033_reg_pldanorm_threshold = 0.03
+#slogan
+100330_reg_pldanorm_threshold = 0.062
+#random letter
+100331_reg_pldanorm_threshold = 0.052
+#random speech
+100332_reg_pldanorm_threshold = 0.03
+asr_threshold = 230
+reg_frame=2000
+vali_frame=1000
+default_frame=500
+10004_reg_frame=50
+10004_vali_frame=50
+10004_default_frame=200
+10002_reg_frame=2000
+10002_vali_frame=1000
+10002_default_frame=500
+100074_reg_frame=2000
+100074_vali_frame=1000
+100074_default_frame=500
+10008_reg_frame=2000
+10008_vali_frame=500
+10008_default_frame=500
+10009_reg_frame=2000
+10009_vali_frame=1000
+10009_default_frame=500
+10012_reg_frame=2000
+10012_vali_frame=1000
+10012_default_frame=500
+10016_reg_frame=2000
+10016_vali_frame=1000
+10016_default_frame=500
+10024_reg_frame=2000
+10024_vali_frame=1000
+10024_default_frame=500
+#sliding window length
+10008_reg_dataframe=9000
+10008_vali_dataframe=6000
+10008_default_dataframe=9000
+
+gpuNum=4
+cpuNum=32
+tool_path=/wls/padl_spk/javaweb/pcmtool5
+#nas path
+nas_filepath=/nfsc/vprc_core_nas_data/serverdata
+version=v1.0-600
+AsyncDomain=http://vprc-core-stg1.paic.com.cn/vprc_core/rest/api/
+AsrAsyncDomain=http://vprc-core-stg1.paic.com.cn/vprc_core/rest/api/asr/
